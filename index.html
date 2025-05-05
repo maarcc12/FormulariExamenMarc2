@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Examen Marc Peña</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Formulari de registre</h2>
+  <form id="registrationForm" novalidate>
+    <label>Nom complet: <input type="text" id="full_name"></label>
+    <div class="error" id="error_full_name"></div><br>
+
+    <label>Nom d'usuari: <input type="text" id="username"></label>
+    <div class="error" id="error_username"></div><br>
+
+    <label>Correu electrònic: <input type="email" id="email"></label>
+    <div class="error" id="error_email"></div><br>
+
+    <label>Telèfon mòbil: <input type="text" id="phone"></label>
+    <div class="error" id="error_phone"></div><br>
+
+    <label>Data de naixement: <input type="date" id="birthdate"></label>
+    <div class="error" id="error_birthdate"></div><br>
+
+    <label>Codi postal: <input type="text" id="postal_code"></label>
+    <div class="error" id="error_postal_code"></div><br>
+
+    <label>Adreça: <input type="text" id="address"></label>
+    <div class="error" id="error_address"></div><br>
+
+    <label>Contrasenya: <input type="password" id="password"></label>
+    <div class="error" id="error_password"></div><br>
+
+    <label>Confirmar contrasenya: <input type="password" id="confirm_password"></label>
+    <div class="error" id="error_confirm_password"></div><br>
+
+    <label><input type="checkbox" id="terms"> Accepto els termes i condicions</label>
+    <div class="error" id="error_terms"></div><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
