@@ -1,0 +1,19 @@
+{
+    "dependencies": {
+      "docdash": "^2.0.2",
+      "eslint": "^8.57.0",
+      "eslint-config-manzdev": "^0.0.8",
+      "jsdoc": "^4.0.4",
+      "vite-plugin-html": "^3.2.2",
+      "vite-plugin-static-copy": "^2.3.1"
+    },
+    "devDependencies": {
+      "eslint-plugin-jsdoc": "^50.6.11",
+      "vite": "^6.3.5"
+    },
+    "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "generate-docs": "jsdoc -c jsdoc.json"
+  }
+  }
